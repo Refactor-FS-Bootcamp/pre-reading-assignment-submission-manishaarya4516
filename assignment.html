@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		registration form
+	</title>
+	<style>
+
+		
+		body {
+			background-color: #8dd4d7;
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		
+		button {
+			background-color: #05c46b;
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<center>
+	<form>
+		<h1>registration form</h1>
+		FIRST NAME:-<input type="text" placeholder="firstname" name=""><br> 
+		SECOND NAME:-<input type="text" placeholder="secondname" name=""><br>
+		GENDER:-<input type="radio" name="button"> MALE
+		        <input type="radio" name="button">FEMALE <br>
+		PICTURE<input type="file" name=""><br><br>
+
+		<select> 
+    		<option>banglore</option>
+    		<option>bihar</option>
+    		<option>up</option>
+    		<option>mumbai</option>
+    	</select>
+		<h4>my bio<textarea></textarea> <br>
+		EMAIL ID:-<input type="text" placeholder="email" name=""><br>
+		PASSWORD:-<input type="password" placeholder="password" name=""><br>
+		<button>submit</button>
+		<button>reset</button><br>
+		
+	</form>
+</center>
+
+</body>
+</html>
